@@ -1,0 +1,84 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+.berkshire-swash-regular {
+    font-family: "Berkshire Swash", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.mukta-medium {
+    font-family: "Mukta", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font: size 30px; 
+  }
+  
+  .container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+*{
+    padding: 0rem;
+    margin: 0rem;
+
+}
+
+h1 {
+    grid-template-columns: 1/4;
+    grid-template-rows: 1/2;
+    text-align: center;
+    background-color: #1A1729;
+    padding: 30px;
+    font-size: 4rem;
+    color: #e1cef5;
+  }
+ 
+  nav ul{
+background-color: #1A1729;
+width: 100%;
+list-style-type: none;
+text-align: center;
+}
+nav li{
+    display: inline-flex;
+}
+nav a {
+    text-decoration: none;
+    color: #bba6cf;
+    padding: 10px;
+    width: 150px;
+}
+nav li:hover {
+    background-color: #000000;
+}
+
+
+  .img{
+    grid-area: 2 4 2 4;
+
+    width: 450px;
+    height: 400px;
+    object-fit: cover;
+  }
+  .carouselslide{
+    grid: template columns 2/4; ;
+  }
+
+  .cartel1{
+    width: 470px;
+    height: 800px;
+    object-fit: cover;
+  }
+  .cartel2{
+    width: 470px;
+    height: 800px;
+    object-fit: cover;
+  }
+  .cartel3{
+    width: 470px;
+    height: 800px;
+    object-fit: cover;
+  }
